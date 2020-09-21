@@ -60,7 +60,8 @@ def dennis_ritchies_language
         }
      }
      
-     programmer_hash[:dennis_ritchie][:languages]
+     prog=programmer_hash[:dennis_ritchie][:languages]
+     puts prog
 end
 
 def adding_matz
@@ -86,6 +87,7 @@ def adding_matz
         }
      }
 
+  programmer_hash
     
 end
 
