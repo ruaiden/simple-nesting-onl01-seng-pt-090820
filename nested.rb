@@ -41,7 +41,7 @@ def alan_kay_is_known_for
      }
      
      programmer_hash[:alan_kay][:known_for]
-     programmer_hash
+     
 end
 
 def dennis_ritchies_language
@@ -61,8 +61,8 @@ def dennis_ritchies_language
         }
      }
      
-     prog=programmer_hash[:dennis_ritchie][:languages]
-     puts prog
+     programmer_hash[:dennis_ritchie][:languages]
+     programmer_hash
 end
 
 def adding_matz
